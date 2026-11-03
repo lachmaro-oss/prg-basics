@@ -14,9 +14,12 @@
 
 import math
 
-enterradius = float(input('input radius:'))
-circurferance =  2*(math.pi*enterradius)
+radius = float(input('input radius: '))
 
-area = math.pi*enterradius**2
+area = math.pi * radius**2
 
-print(enterradius , area)
+circumference = 2 * math.pi * radius
+
+print(f'Radius: {radius}')
+print(f'Area: {area:.2f}')
+print(f'Circumference: {circumference:.2f}')

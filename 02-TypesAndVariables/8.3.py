@@ -14,4 +14,4 @@ farenheit2 = farenheit + 32
 Kelvin = enterTEMPinCelcius + 273.15
 #using math operations to change celsius for a farenheit and kelvin
 print(f'celsius temp {enterTEMPinCelcius} farenheit temp {farenheit2} kelvin temp {Kelvin}')
-#printing with f string
+#printing with f string to show direct value of changed temperatures 
