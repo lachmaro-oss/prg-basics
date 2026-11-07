@@ -7,12 +7,12 @@ encrypted_text = ''
 
 for char in plain_text:
     # read the character's code (use ord())
-    x = print(ord(char))
+    x = ord(plain_text) 
     # add one to the character's code
-    x +=1  
+    char += 1   
     # replace new character code with its
     # corresponding character (use chr())
-    ...
+    char = chr()
     # add encrypted character to encrypted text
     ...
 
