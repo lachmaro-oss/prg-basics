@@ -4,4 +4,17 @@
 #The dog's age in dog's years is 73 years.
 
 dogageinhuman = int(input('Enter the dogs age in human years:'))
-dogindogyears = 
+dogyears = 0 
+ 
+aftertwoyears = dogyears  
+
+
+if dogageinhuman == 2:
+    dogyears = 21
+elif dogageinhuman == 1:
+    dogyears = 10.5
+elif  dogageinhuman > 2:
+    dogageinhuman = dogageinhuman - 2
+    dogyears = 21 + 4*(dogageinhuman) 
+
+print(dogyears)
